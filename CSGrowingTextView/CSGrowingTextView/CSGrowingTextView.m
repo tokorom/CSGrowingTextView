@@ -248,10 +248,10 @@
                       lineHeight - (lineHeight - (NSInteger)lineHeight) + 0.5 :
                       ceil(lineHeight));
         
-        return ceil(lineHeight * lines + insets);
+        return ceil(lineHeight * lines + insets + 13.0);
     }
     else {
-        return ceil(lineHeight * lines + insets);
+        return ceil(lineHeight * lines + insets + 13.0);
     }
 }
 
